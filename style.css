@@ -17,11 +17,11 @@ body{
 }
 
 .card{
-    display: flex !important;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row !important;
-    flex-wrap: nowrap !important;
+    flex-wrap: nowrap;
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 16px;
