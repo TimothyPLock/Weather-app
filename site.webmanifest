@@ -1,9 +1,0 @@
-{
-	"name": "Cookeville Weather App",
-	"short_name": "Weather App",
-	"start_url": "/Weather-app",
-	"description": "A weather app that displays the current weather and forecast for Cookeville, TN using open-meteo API",
-	"theme_color": "#007bff",
-	"display": "standalone",
-	"background_color": "#ffffff"
-}
