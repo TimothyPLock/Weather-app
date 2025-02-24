@@ -19,14 +19,14 @@ body{
 .card{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row !important;
     flex-wrap: nowrap;
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: min(90%, 600px);
+    width: min(90%, 600px) max(100%);
     gap: 1rem;
 }
 
