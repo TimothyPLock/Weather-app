@@ -5,7 +5,7 @@
     "start_url": "/Weather-app/index.html",
     "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#007bff",
+    "theme_color": "#000000",
     "icons": [
       {
         "src": "/Weather-app/appIcon1024x1024.png",
