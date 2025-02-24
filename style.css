@@ -1,0 +1,71 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(200, 100%, 10%);
+    font-family: sans-serif;
+}
+
+.d-flex{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: min(90%, 600px);
+    gap: 1rem;
+}
+
+.card-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 16px;
+    margin-left: 4%
+}
+
+.header-current-temp {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.card-right{
+    display: grid;
+    width: 60%;
+    text-align: right;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3, auto);
+    flex-grow: 2;
+    padding: 16px;
+    padding-left: 32px;
+    height: 100%;
+    border-left: 2px solid black;
+}  
+
+.info-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
